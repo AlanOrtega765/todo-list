@@ -1,5 +1,7 @@
 # Aplicación Todo List
 
+![Imágen de Mi Aplicación](./public/app-image.png)
+
 Una aplicación sencilla de lista de tareas que facilita la organización de tus actividades diarias. La interfaz consta de los siguientes elementos:
 
 ## Input de Tareas
