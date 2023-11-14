@@ -1,39 +1,48 @@
-# todo-app
+# Aplicación Todo List
 
-This template should help get you started developing with Vue 3 in Vite.
+Una aplicación sencilla de lista de tareas que facilita la organización de tus actividades diarias. La interfaz consta de los siguientes elementos:
 
-## Recommended IDE Setup
+## Input de Tareas
+Un campo de entrada donde puedes escribir la tarea que deseas realizar.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Lista de Tareas
+Una lista dinámica que muestra todas las tareas. Cada tarea tiene las siguientes opciones:
 
-## Type Support for `.vue` Imports in TS
+- **Checkbox**: Para marcar la tarea como completada.
+- **Botón de Eliminación**: Para eliminar la tarea de la lista.
+- **Botón de Edición**: Para modificar el contenido de la tarea.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Secciones
+La aplicación se organiza en tres secciones:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Todas
+Muestra todas las tareas, ya sean activas o completadas.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Activas
+Muestra solo las tareas que aún no han sido marcadas como completadas.
 
-## Customize configuration
+### Completadas
+Muestra solo las tareas que han sido marcadas como completadas.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Esta aplicación te proporciona un espacio organizado para gestionar tus tareas de manera efectiva.
 
-## Project Setup
+## Instrucciones para la instalación y ejecución
+
+1. Clona este repositorio:
+
+```sh
+git clone https://github.com/AlanOrtega765/todo-list.git
+```
+
+2. Configura el proyecto:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
 ```
-
-### Type-Check, Compile and Minify for Production
 
 ```sh
 npm run build

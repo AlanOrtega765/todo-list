@@ -190,6 +190,8 @@ const disabledClearButton = computed(() => {
           hide-details
           variant="solo"
           @keyup.enter="updateTask(taskEdit)"
+          append-inner-icon="fa-edit"
+          @click:append-inner="updateTask(taskEdit)"
         ></v-text-field>
         <h1 class="text-body-2 text-white mt-4">
           Presiona ENTER para actualizar
